@@ -28,8 +28,7 @@ void PlotsTree(TString plots="1btag", int ch=0, TString sys="", bool EvtNorm=fal
   /****************
       tdr Style
    ***************/
-  //gROOT->ProcessLine(".L /gpfs/csic_projects/cms/brochero/ttbar/TopCodeLegacy/tdrStyle.C");
-  gROOT->ProcessLine(".L /home/brochero/ttbar/TopCodeLegacy/tdrStyle.C");
+  gROOT->ProcessLine(".L /home/brochero/ttbar/TopCodeLegacy/TopTools/tdrStyle.C");
   setTDRStyle();
 
   Int_t chatch = 1756;
